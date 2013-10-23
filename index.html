@@ -1,19 +1,28 @@
 <html>
 <head>
 	<title>Happy Halloween</title>
+	<style>
+	body {
+		background-color: #ff6600;
+	}
+	</style>
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	<img src="img/header.png" />
-	<h1>Happy Halloween</h1>
-	<a href="http://iwdsa.org">IWDSA Website</a>
-	<a href="lorem_ipsum.txt">Lorem Ipsum</a>
-	<a href="#favorite-candy">Favorite Candy</a>
+	<div id="header-img" >
+		<img src="img/header.png" />
+	</div>
 
-	<p><img src="img/guy.png" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper elit quis leo mollis, quis malesuada augue fermentum. Suspendisse et interdum elit. Curabitur congue libero eget massa pulvinar, nec sagittis mi mollis. Phasellus volutpat leo at dolor fringilla, auctor fringilla nisl mattis. Proin ac suscipit tellus, vitae interdum lectus. Suspendisse lobortis, ligula ut lacinia consectetur, leo arcu rutrum erat, a tincidunt sem arcu mollis sem. Cras viverra malesuada magna nec fermentum. Quisque est lectus, semper a egestas ornare, viverra imperdiet lectus. In et posuere magna, sed lobortis augue. Nulla nec adipiscing neque, quis imperdiet massa. Mauris venenatis condimentum sollicitudin. Duis commodo suscipit mi sed pulvinar. Suspendisse nibh dolor, semper at tincidunt in, sodales id ligula. Praesent at nisl magna. Nulla pharetra orci vel interdum malesuada. Cras iaculis sodales lectus, sed euismod urna accumsan ac.</p>
+	<h1>Happy Halloween</h1>
+	<p><a href="http://iwdsa.org">IWDSA Website</a>
+	<a href="lorem_ipsum.txt">Lorem Ipsum</a>
+	<a href="#favorite-candy">Favorite Candy</a></p>
+
+	<p style="font-family: sans-serif" class="something"><img src="img/guy.png" id="guy" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper elit quis leo mollis, quis malesuada augue fermentum. Suspendisse et interdum elit. Curabitur congue libero eget massa pulvinar, nec sagittis mi mollis. Phasellus volutpat leo at dolor fringilla, auctor fringilla nisl mattis. Proin ac suscipit tellus, vitae interdum lectus. Suspendisse lobortis, ligula ut lacinia consectetur, leo arcu rutrum erat, a tincidunt sem arcu mollis sem. Cras viverra malesuada magna nec fermentum. Quisque est lectus, semper a egestas ornare, viverra imperdiet lectus. In et posuere magna, sed lobortis augue. Nulla nec adipiscing neque, quis imperdiet massa. Mauris venenatis condimentum sollicitudin. Duis commodo suscipit mi sed pulvinar. Suspendisse nibh dolor, semper at tincidunt in, sodales id ligula. Praesent at nisl magna. Nulla pharetra orci vel interdum malesuada. Cras iaculis sodales lectus, sed euismod urna accumsan ac.</p>
 
 	<div>
 		<h2>Question</h2>
-		<p>
+		<p class="something">
 			<em>Why didn't the skeleton cross the road?</em><br />
 			He didn't have the <strong><u>guts</u></strong>!!
 		</p>
@@ -29,7 +38,7 @@
 	</div>
 
 	<marquee direction="right">
-		<img src="img/ghost.png" />
+		<img src="img/ghost.png" id="ghost" />
 	</marquee>
 </body>
 </html>

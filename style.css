@@ -1,0 +1,23 @@
+p {
+	font-size: 14px;
+}	
+
+#header-img {
+	text-align: center;
+}
+
+.something {
+}
+
+#guy {
+	float: right;
+}
+
+#ghost {
+	height: 50px;
+	width: 50px;
+}
+
+ul li {
+	font-family: sans-serif;
+}
