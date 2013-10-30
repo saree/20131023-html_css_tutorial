@@ -6,6 +6,23 @@
 		background-color: #ff6600;
 	}
 	</style>
+	<script>
+function MyFunction()
+{
+
+	alert("Boo!!!!!!!");
+
+}
+
+function color()
+{
+	//alert(colorchange.cc.value);
+	document.body.style.backgroundColor=(colorchange.cc.value);
+	document.body.text=(colorchange.tc.value);
+}
+</script>
+	
+	
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -16,6 +33,37 @@
 	<h1>Happy Halloween</h1>
 	<p><a href="http://iwdsa.org">IWDSA Website</a>
 	<a href="lorem_ipsum.txt">Lorem Ipsum</a>
+	
+	<div align="center">
+	 <form name="colorchange">
+		<table border="2">
+			<td colspan="2">
+				<b><center>Please pick a color</center></b></td>
+				<tr><td><b>Background</b></td><td>
+				
+				<select name="cc" size="1">
+					<option value="black">Black</option>
+					<option value="yellow">Yellow</option>
+					<option value="red">Red</option>
+					<option selected value="white">White</option>
+				</select></td></tr>
+				<tr><td><b>Text:</td><td>
+				
+				<select name="tc" size="1">
+					<option value="black">Black</option>
+					<option value="yellow">Yellow</option>
+					<option value="red">Red</option>
+					<option selected value="white">White</option>
+				</select></td></tr>
+				<td colspan="2">
+				<center>
+				<input type="button" value="Change color!" name="button" onclick="color()">
+				</td></table></form></div>
+		</table>
+	 </form>
+	
+	</div>
+	
 	<a href="#favorite-candy">Favorite Candy</a></p>
 
 	<p style="font-family: sans-serif" class="something"><img src="img/guy.png" id="guy" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper elit quis leo mollis, quis malesuada augue fermentum. Suspendisse et interdum elit. Curabitur congue libero eget massa pulvinar, nec sagittis mi mollis. Phasellus volutpat leo at dolor fringilla, auctor fringilla nisl mattis. Proin ac suscipit tellus, vitae interdum lectus. Suspendisse lobortis, ligula ut lacinia consectetur, leo arcu rutrum erat, a tincidunt sem arcu mollis sem. Cras viverra malesuada magna nec fermentum. Quisque est lectus, semper a egestas ornare, viverra imperdiet lectus. In et posuere magna, sed lobortis augue. Nulla nec adipiscing neque, quis imperdiet massa. Mauris venenatis condimentum sollicitudin. Duis commodo suscipit mi sed pulvinar. Suspendisse nibh dolor, semper at tincidunt in, sodales id ligula. Praesent at nisl magna. Nulla pharetra orci vel interdum malesuada. Cras iaculis sodales lectus, sed euismod urna accumsan ac.</p>
@@ -25,6 +73,8 @@
 		<p class="something">
 			<em>Why didn't the skeleton cross the road?</em><br />
 			He didn't have the <strong><u>guts</u></strong>!!
+			<input type="button" onclick="MyFunction()" value="Happy Halloween">
+
 		</p>
 	</div>
 
